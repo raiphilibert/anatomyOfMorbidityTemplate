@@ -1,0 +1,28 @@
+---
+title: "Group report template"
+author: "Group Name"
+date: "October 9, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Hypothesis
+
+Include your hypothesis here.
+
+
+## Data tables
+
+Data tables used to answer hypothesis/question
+
+## Data analysis
+Describe and document your code as you go along
+
+## Final results
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
