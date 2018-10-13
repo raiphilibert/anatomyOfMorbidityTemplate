@@ -26,3 +26,10 @@ Describe and document your code as you go along
 plot(pressure)
 ```
 
+#Shiny apps
+
+To include 
+```{r shinyapp}
+knitr::include_app("https://yihui.shinyapps.io/miniUI/", 
+  height = "600px")
+``
